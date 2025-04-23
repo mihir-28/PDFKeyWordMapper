@@ -42,7 +42,11 @@ This Python script extracts and indexes keywords from PDF documents. It scans th
 
 3. Customize the list of `extended_keywords` to include terms relevant to your document.
 
-4. If needed, update the `pages_to_skip` list to exclude specific pages from analysis.
+4. If needed, update the `pages_to_skip` list to exclude specific pages from analysis:
+   ```python
+   # For individual pages: [1, 5, 9]
+   # For page ranges: list(range(37, 100)) + list(range(122, 126))
+   pages_to_skip = []
 
 5. Run the script:
    ```

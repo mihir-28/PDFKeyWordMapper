@@ -8,7 +8,9 @@ from PyPDF2 import PdfReader  # For reading PDF files
 pdf_path = "path/to/your/file"
 
 # List of page numbers to exclude from the analysis (e.g., references, appendices)
-pages_to_skip = [] # Add comma separated page numbers to skip
+# Add comma separated page numbers to skip individual pages like [1, 5, 9]
+# Or use ranges for consecutive pages like: list(range(37, 100)) + list(range(122, 126))
+pages_to_skip = []
 
 try:
     # Check if the specified PDF file exists
