@@ -37,7 +37,7 @@ This Python script extracts and indexes keywords from PDF documents. It scans th
 
 2. Edit the `pdf_path` variable in the script to point to your PDF file:
    ```python
-   pdf_path = "your_document.pdf"
+   pdf_path = "path/to/your/file"
    ```
 
 3. Customize the list of `extended_keywords` to include terms relevant to your document.
