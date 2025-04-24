@@ -109,7 +109,7 @@ The script uses regular expressions with word boundaries to ensure accurate matc
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md) - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) for details.
 
 ## Contributing
 
